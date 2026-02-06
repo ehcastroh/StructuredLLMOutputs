@@ -2,13 +2,13 @@
 
 ## Overview
 
-This project implements a structured LLM Output workflow. It demonstrates how structured output can be used for tasks such as data validation and improving trace/span evals.
+This project implements a structured LLM Output workflow. It demonstrates how structured output can be used for tasks such as user-input, data and  LLM-ouput validation, as well as improving trace/span evals.
 
 The repo is structured with:
 
-* A Jupyter Notebook (`structured_llm_ouput.ipynb`) for ideation, design, and experimentation.
+* A Jupyter Notebook (`pydantic_user_input_validation.ipynb`) for ideation, design, and experimentation related to user-input validation and error handling
 
-* A Python executable (`structured_llm_ouput.py`) for running the chatbot interactively in the terminal.
+* A Jupyter Notebook (`pydantic_llm_response_validation.ipynb`) for ideation, design, and experimentation related to LLM-output validation and error handling
 
 ## Getting Started
 
@@ -23,6 +23,7 @@ The repo is structured with:
 
   ```python
   ANTHROPIC_API_KEY="your_api_key_here"
+  OPENAI_API_KEY="your_api_key_here"
   ```
 3. Run the chatbot (from terminal)
   ```python
