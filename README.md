@@ -1,8 +1,8 @@
-# ArXiv Chatbot
+# Structured LLM Output
 
 ## Overview
 
-This project implements a structured LLM Output workflow. It demonstrates how structured output can be used for tasks such as validation and model evals.
+This project implements a structured LLM Output workflow. It demonstrates how structured output can be used for tasks such as data validation and improving trace/span evals.
 
 The repo is structured with:
 
@@ -26,5 +26,5 @@ The repo is structured with:
   ```
 3. Run the chatbot (from terminal)
   ```python
-  python arxiv_chatbot.py
+  python structured_llm_ouput.py
   ```
