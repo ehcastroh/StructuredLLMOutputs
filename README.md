@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a structured LLM Output workflow. It demonstrates how structured output can be used for tasks such as user-input, data and  LLM-ouput validation, as well as improving trace/span evals.
+This project implements a structured LLM Output workflow. It demonstrates how **Pydantic** can structure output so it can be used for tasks such as user-input, data and  LLM-ouput validation, as well as improving trace/span evals (among many others).
 
 The repo is structured with:
 
