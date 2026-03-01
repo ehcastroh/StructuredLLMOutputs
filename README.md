@@ -18,14 +18,10 @@ The repo is structured with:
   pip install -r requirements.txt
 
   ```
-2. Set Antropic API key
+2. Set Antropic or OpenAI API key
   In a `.env` file in the project root:
 
   ```python
   ANTHROPIC_API_KEY="your_api_key_here"
   OPENAI_API_KEY="your_api_key_here"
-  ```
-3. Run the chatbot (from terminal)
-  ```python
-  python structured_llm_ouput.py
   ```
