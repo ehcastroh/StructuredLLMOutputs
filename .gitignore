@@ -1,5 +1,5 @@
 # Ignore the virtual environment file
-.arxivvenv
+.structllmoutputvenv
 
 # Ignore keys
 .env
